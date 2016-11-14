@@ -18,7 +18,7 @@ Normal Mode
 
 [x] client: clear button, duh....
 
-Hard Mode
+Hard Mode (video: https://youtu.be/oNJm-UH8yYs)
 ---------
 
 [x] physical calculator-like interface
