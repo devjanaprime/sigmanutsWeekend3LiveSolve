@@ -8,17 +8,33 @@
   </head>
   <body>
     <h1>Sigma Wk3 Live Solves</h1>
-    <input type='number' id='xIn' />
-    <select id='typeIn'>
-      <option value='add'>+</option>
-      <option value='subtract'>-</option>
-      <option value='multiply'>x</option>
-      <option value='divide'>/</option>
-    </select>
-    <input type='number' id='yIn' />
-    <button id='calculateButton'>Calculate</button>
-    <button id='clearButton'>Clear</button>
-    <p id='output'>
+    <p>
+      <button id='clearButton'>C</button>
+      <label id='output'></label>
+    </p>
+    <p>
+      <button class='numberIn' number='7'>7</button>
+      <button class='numberIn' number='8'>8</button>
+      <button class='numberIn' number='9'>9</button>
+      <button class='typeIn' type='add'>+</button>
+    </p>
+    <p>
+      <button class='numberIn' number='4'>4</button>
+      <button class='numberIn' number='5'>5</button>
+      <button class='numberIn' number='6'>6</button>
+      <button class='typeIn' type='subtract'>-</button>
+    </p>
+    <p>
+      <button class='numberIn' number='1'>1</button>
+      <button class='numberIn' number='2'>2</button>
+      <button class='numberIn' number='3'>3</button>
+      <button class='typeIn' type='multiply'>x</button>
+    </p>
+    <p>
+      <button class='numberIn' number='0'>0</button>
+      <button class='numberIn' number='.'>.</button>
+      <button id='calculateButton'>=</button>
+      <button class='typeIn' type='divide'>/</button>
     </p>
   </body>
 </html>
