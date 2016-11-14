@@ -3,13 +3,6 @@ var verbose = true;
 $( document ).ready( function(){
     $( '#calculateButton' ).on( 'click', function(){
       if( verbose ) console.log( 'calculateButton clicked' );
-
-      /// - early input test - ///
-      // var x = $( '#xIn' ).val();
-      // console.log( 'xIn:', x );
-      // var type = $( '#typeIn' ).val();
-      // console.log( 'typeIn:', type );
-
       // assemble user input into an object to send
       var objectToSend = {
         x: $( '#xIn' ).val(),
@@ -36,10 +29,9 @@ $( document ).ready( function(){
       // clear inputs
       $( '#xIn' ).val('');
       $( '#yIn' ).val('');
-      // clear output
-      $( '#output').html('');
       // reset type selector
       $( '#typeIn').val('add');
+      // clear output
+      $( '#output').html('');
     }); // end clearButton on click
-
 }); // end doc reacy
